@@ -1,7 +1,5 @@
 **Integrating the Healthcare Enterprise**
 
-![IHE\_LOGO\_for\_tf-docs](images/media/image1.jpeg)
-
 **IT Infrastructure (ITI)**
 
 **White Paper**
@@ -42,95 +40,6 @@ Supplements and the process used to create them can be found at
 The current version of the IHE IT Infrastructure Technical Framework can
 be found at
 [http://ihe.net/Technical\_Frameworks](http://ihe.net/Technical_Frameworks/).
-
-**CONTENTS**
-
-[1 Introduction 4](#_Toc34304666)
-
-[1.1 Purpose of the Survey of Network Interfaces Form White Paper
-4](#purpose-of-the-survey-of-network-interfaces-form-white-paper)
-
-[1.2 Scope 4](#scope)
-
-[1.3 Intended Audience 4](#intended-audience)
-
-[1.4 Open Issues and Questions 5](#_Toc34304670)
-
-[1.5 Closed Issues 7](#closed-issues)
-
-[2 Summary 8](#summary)
-
-[2.1 Problem Description 8](#problem-description)
-
-[2.2 System Configuration Catalogs in Other Work Items
-9](#system-configuration-catalogs-in-other-work-items)
-
-[2.2.1 IHE 9](#ihe)
-
-[2.2.1.1 Connectathon Testbed 9](#connectathon-testbed)
-
-[2.2.1.2 IHE PCD Domain Configuration Use Cases
-0](#ihe-pcd-domain-configuration-use-cases)
-
-[2.2.1.3 IHE ITI Configuration Management White Paper
-0](#ihe-iti-configuration-management-white-paper)
-
-[2.2.2 DICOM 0](#dicom)
-
-[2.2.2.1 Configuration Management Profiles
-0](#configuration-management-profiles)
-
-[2.2.3 Other 0](#other)
-
-[3 Use Cases 1](#use-cases)
-
-[3.1 Use Case \#1 - New Single System Implementation
-2](#use-case-1---new-single-system-implementation)
-
-[3.1.1 Current State: New Single System Install
-2](#current-state-new-single-system-install)
-
-[3.1.2 Desired State: New Single System Install
-2](#desired-state-new-single-system-install)
-
-[3.2 Use Case \#2 - Service 3](#use-case-2---service)
-
-[3.2.1 Current State: Service 3](#current-state-service)
-
-[3.2.2 Desired State: Service 3](#desired-state-service)
-
-[4 Profile Proposal 3](#profile-proposal)
-
-[4.1 Description 3](#description)
-
-[4.2 Process Flow 4](#process-flow)
-
-[4.3 Security Controls 5](#security-controls)
-
-[4.4 Actors 6](#actors)
-
-[4.4.1 SNIF Content Creator 6](#snif-content-creator)
-
-[4.4.2 SNIF Repository 6](#snif-repository)
-
-[4.4.3 Integrated SNIF Content Creator/Repository
-6](#integrated-snif-content-creatorrepository)
-
-[4.4.4 SNIF Content Consumer 7](#snif-content-consumer)
-
-[4.4.5 Grouping 7](#grouping)
-
-[4.5 Transactions 7](#transactions)
-
-[4.6 Data Model 9](#data-model)
-
-[4.6.1 SNIF Repository Data Model 9](#snif-repository-data-model)
-
-[4.6.2 SNIF Contents Data Model 10](#snif-contents-data-model)
-
-[4.7 Future Profile Extensions 11](#_Toc34304703)
-
-  
 
 # Introduction
 
@@ -201,11 +110,10 @@ There are two aspects to security:
 
 Public comment is sought on this approach, as well as additional
 security control baselines that should apply to a SNIF data source based
-on requirements and guidelines such as: NIST 800-53\[4\], MDR
-2017/745\[5\], EU Directive on Security of Network and Information
-Systems\[6\], EU GDPR\[7\], EU Cybersecurity Act\[8\], ANSI/NEMA HN
-1-2019\[9\], ISO/IEC 27001/2 and FIPS 140-3 for US Federal
-Agencies\[10\].
+on requirements and guidelines such as: NIST 800-53, MDR 2017/745, EU
+Directive on Security of Network and Information Systems, EU GDPR, EU
+Cybersecurity Act, ANSI/NEMA HN 1-2019, ISO/IEC 27001/2 and FIPS 140-3
+for US Federal Agencies.
 
 Open Issue 2:
 
@@ -213,7 +121,7 @@ What amount of security information should be included within the data
 model without compromising security?
 
 Consider, although not intended as a security tool, SNIF could aid in
-aid in a project to map an existing network\[11\].
+aid in a project to map an existing network.
 
 Open Issue 2 response:
 
@@ -402,7 +310,7 @@ There are no public figures on the specific price for the configuration
 of interoperable products, however there is much commentary on the
 expense associated with system integration, upgrade and repair. One
 paper estimates a savings of seven hours when a configuration management
-tool is used to assist in the set up a new cath lab\[12\].
+tool is used to assist in the set up a new cath lab.
 
 *The participation and role of institutions in the management of
 endpoints varies. The level of interface endpoint cataloguing ranges
@@ -442,9 +350,9 @@ which are widely adopted in healthcare.
 During an IHE Connectathon, technical details of hundreds of endpoints
 must be catalogued, searched and retrieved in order to perform peer to
 peer interoperability connectivity testing. A searchable configuration
-data source for web services, DICOM and HL7 v2\[13\] within the Gazelle
-Test Management system allows test participants to create, update, view
-and .csv export endpoint details.
+data source for web services, DICOM and HL7 v2 within the Gazelle Test
+Management system allows test participants to create, update, view and
+.csv export endpoint details.
 
 ![](images/media/image2.png)
 
@@ -457,17 +365,17 @@ The IHE Patient Care Device (PCD) Domain concentrates on profiles
 pertaining to patient-centric point-of-care medical devices (such as
 vital signs monitors and infusion pumps). IHE PCD has identified use
 cases within the recent Service-oriented Device Point-of-care
-Interoperability (SDPi) White Paper\[14\], in which devices exchange
-software and hardware configuration details (*UC.33, UC.194 and UC.199)*
-to facilitate biomedical equipment management.
+Interoperability (SDPi) White Paper, in which devices exchange software
+and hardware configuration details (*UC.33, UC.194 and UC.199)* to
+facilitate biomedical equipment management.
 
 #### IHE ITI Configuration Management White Paper
 
-In 2007, IHE ITI began to draft a Configuration Management White
-Paper\[15\] that proposed extending the DICOM LDAP model to HL7 v2 and
-XD\* web services. Although this was not published as an IHE White
-Paper, its development fed into other work products, and was considered
-in the development of this white paper.
+In 2007, IHE ITI began to draft a Configuration Management White Paper
+that proposed extending the DICOM LDAP model to HL7 v2 and XD\* web
+services. Although this was not published as an IHE White Paper, its
+development fed into other work products, and was considered in the
+development of this white paper.
 
 ### DICOM
 
@@ -480,7 +388,7 @@ Standard.
 In 2001, DICOM convened an ad hoc group on configuration management that
 developed use cases and a data model that led to the development of
 Supplement 67, Configuration Management, which was introduced into the
-DICOM standard in 2004\[16\].
+DICOM standard in 2004.
 
 Despite leveraging an existing LDAP infrastructure for campus
 configuration management support, a review of DICOM conformance
@@ -495,48 +403,48 @@ DICOM Configuration Management Profiles in the marketplace.
 
 Other Configuration Management worth noting include:
 
-  - Interface definition language (IDL)\[17\], such as Web Services
+  - Interface definition language (IDL), such as Web Services
     Description Language (WSDL) or Object Management group (OMG)
 
-  - Universal Description, Discovery and Integration (UDDI) OASIS\[18\]
+  - Universal Description, Discovery and Integration (UDDI) OASIS
     standard that is no longer maintained
 
-  - WoT (Web of Things) Thing Description\[19\], a work item from the
-    W3C Working Group, recently open for public comment
+  - WoT (Web of Things) Thing Description, a work item from the W3C
+    Working Group, recently open for public comment
 
   - FHIR CapabilityStatement resource and its expected publication on
-    the metadata endpoint of a server\[20\]
+    the metadata endpoint of a server
 
-  - FHIR Endpoint resource\[21\] describes the technical details for how
-    to connect to a FHIR server, and for what purposes
+  - FHIR Endpoint resource describes the technical details for how to
+    connect to a FHIR server, and for what purposes
 
   - mCSD, Mobile Care Services Discovery, provides a provides a RESTful
-    interface to discover Care Services\[22\]; endpoint services could
-    be managed in a similar manner
+    interface to discover Care Services; endpoint services could be
+    managed in a similar manner
 
   - DICOMweb includes a WADL Retrieve Capabilities Transaction, a
     machine-readable description of the service(s) implemented by an
-    origin server\[23\]
+    origin server
 
-  - IEEE 11073\[24\] contains configuration specifications for point of
-    care / personal health devices
+  - IEEE 11073 contains configuration specifications for point of care /
+    personal health devices
 
   - Configuration Management with SNMP (Simple Network Management
-    Protocol, snmpconf)\[25\]
+    Protocol, snmpconf)
 
-  - Key Management Interoperability Protocol (KMIP)\[26\]
+  - Key Management Interoperability Protocol (KMIP)
 
-  - Universal Plug and Play (UPnP)\[27\], a set of networking protocols
+  - Universal Plug and Play (UPnP), a set of networking protocols
     supporting zero-configuration and automatic discovery in local area
     networks
 
   - Web Services for Management (WS-Management) Specification, a
     SOAP-based protocol for the management of servers, devices,
-    applications and various Web services\[28\]
+    applications and various Web services
 
   - DNS Service Discovery (DNS-SD) standardizes DNS programming
     interfaces, servers, and packet formats to browse the network for
-    services\[29\]
+    services
 
   - Commercially available or open-source products that provide similar
     services
@@ -902,9 +810,9 @@ Table 4.6.2-1: SNIF Data Model Elements - categorized
 | Connection type                            | Endpoint protocol or standard                                                                                                    | \*   | \*     | \*    | \*   |
 | Connection type version                    | Endpoint protocol or standard version                                                                                            | x    | x      |       |      |
 | Transport                                  | TCP/IP, HTTP, MLLP                                                                                                               |      | \*     | \*    |      |
-| Service details                            | DICOM PS3.15 Annex H\[30\], DICOMweb Capabilities\[31\], FHIR Capability Statement\[32\], HL7 messages supported, DIMSE services | o    | \*     | \*    | o    |
+| Service details                            | DICOM PS3.15 Annex H, DICOMweb Capabilities, FHIR Capability Statement, HL7 messages supported, DIMSE services                   | o    | \*     | \*    | o    |
 | Address                                    | Address for connecting to this endpoint (e.g., URL, IP/hostname, port)                                                           | \*   | \*     | \*    | \*   |
-| Connection type security description       | IHE ATNA Options\[33\] *(CP-ITI-1151)*                                                                                           | \*   | \*     | \*    | \*   |
+| Connection type security description       | IHE ATNA Options *(CP-ITI-1151)*                                                                                                 | \*   | \*     | \*    | \*   |
 | Connection security certificate management | Signed Direct Comparison, Certificate Authority                                                                                  | \*   | \*     | \*    | \*   |
 | Transmission                               | Synchronous or asynchronous communication                                                                                        | o    | o      | o     | o    |
 | Application Entity                         | DICOM AE title                                                                                                                   |      |        | \*    |      |
@@ -934,63 +842,3 @@ purpose and capabilities.*
 
 3.  FHIR is the registered trademark of Health Level Seven International
     and the use does not constitute endorsement by HL7.
-
-4.  <https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf#page=51>
-
-5.  https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32017R0745
-
-6.  https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L1148
-
-7.  https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679
-
-8.  https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019R0881
-
-9.  <https://www.nema.org/Standards/Pages/manufacturer-disclosure-statement-for-medical-device-security.aspx?key=67ri900e6rt5af#download>
-
-10. <https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.140-3.pdf>
-
-11. https://apps.nsa.gov/iaarchive/library/ia-guidance/security-configuration/networks/manageable-network-plan.cfm
-
-12. <https://www.ijert.org/research/dicom-configuration-management-using-configuration-cockpit-tool-IJERTCONV6IS13190.pdf>
-
-13. <https://gazelle.ihe.net/content/system-configuration>
-
-14. <https://www.ihe.net/uploadedFiles/Documents/PCD/IHE_PCD_WP_SDPi_UseCases_Rev1-1_Pub_2019-11-01.pdf>
-
-15. <ftp://ftp.ihe.net/IT_Infrastructure/iheitiyr5-2007-2008/Technical_Cmte/Whitepaper_Work/Configuration/Config-Whitepaper-Outline04.doc>
-
-16. <http://dicom.nema.org/medical/dicom/current/output/html/part15.html#chapter_7>
-
-17. <https://en.wikipedia.org/wiki/Interface_description_language>
-
-18. <https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=uddi-spec>
-
-19. <https://www.w3.org/TR/2020/PR-wot-thing-description-20200130/>
-
-20. <http://hl7.org/fhir/http.html#capabilities>
-
-21. <https://www.hl7.org/fhir/endpoint.html>
-
-22. <https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_mCSD.pdf>
-
-23. http://dicom.nema.org/medical/dicom/current/output/chtml/part18/sect\_8.9.html
-
-24. <https://en.wikipedia.org/wiki/ISO/IEEE_11073>
-
-25. <https://datatracker.ietf.org/wg/snmpconf/about/>
-
-26. <https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=kmip>
-
-27. <https://openconnectivity.org/developer/specifications/upnp-resources/upnp/>
-
-28. https://www.dmtf.org/sites/default/files/standards/documents/DSP0226\_1.2.0.pdf
-
-29. http://www.dns-sd.org/
-
-30. <http://dicom.nema.org/medical/dicom/current/output/html/part15.html#chapter_H>
-
-31. <http://dicom.nema.org/medical/dicom/current/output/html/part18.html#sect_8.9>
-
-32. <https://www.hl7.org/fhir/capabilitystatement.html>
-
-33. <https://gazelle.ihe.net/files/CP-ITI-1151-04-ballot54.pdf>
