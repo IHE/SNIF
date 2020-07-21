@@ -6,7 +6,7 @@
 
 **Survey of Network Interfaces Form**
 
-**Revision 1.1** **–** **Published**
+**Revision 1.1 – Published**
 
 Date: May 6, 2020
 
@@ -110,9 +110,19 @@ There are two aspects to security:
 
 Public comment is sought on this approach, as well as additional
 security control baselines that should apply to a SNIF data source based
-on requirements and guidelines such as: NIST 800-53, MDR 2017/745, EU
-Directive on Security of Network and Information Systems, EU GDPR, EU
-Cybersecurity Act, ANSI/NEMA HN 1-2019, ISO/IEC 27001/2 and FIPS 140-3
+on requirements and guidelines such as:NIST
+[800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf#page=51),
+[MDR 2017/745](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32017R0745),
+[EU Directive on Security of Network and Information
+Systems](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L1148),
+[EU
+GDPR](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679),
+[EU Cybersecurity
+Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019R0881),
+[ANSI/NEMA
+HN 1-2019](https://www.nema.org/Standards/Pages/manufacturer-disclosure-statement-for-medical-device-security.aspx?key=67ri900e6rt5af#download),
+ISO/IEC 27001/2 and
+[FIPS 140-3](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.140-3.pdf)
 for US Federal Agencies.
 
 Open Issue 2:
@@ -121,7 +131,8 @@ What amount of security information should be included within the data
 model without compromising security?
 
 Consider, although not intended as a security tool, SNIF could aid in
-aid in a project to map an existing network.
+aid in a project to [map an existing
+network](https://apps.nsa.gov/iaarchive/library/ia-guidance/security-configuration/networks/manageable-network-plan.cfm).
 
 Open Issue 2 response:
 
@@ -310,7 +321,8 @@ There are no public figures on the specific price for the configuration
 of interoperable products, however there is much commentary on the
 expense associated with system integration, upgrade and repair. One
 paper estimates a savings of seven hours when a configuration management
-tool is used to assist in the set up a new cath lab.
+tool is used to assist in the set up a [new cath
+lab](https://www.ijert.org/research/dicom-configuration-management-using-configuration-cockpit-tool-IJERTCONV6IS13190.pdf).
 
 *The participation and role of institutions in the management of
 endpoints varies. The level of interface endpoint cataloguing ranges
@@ -349,12 +361,13 @@ which are widely adopted in healthcare.
 
 During an IHE Connectathon, technical details of hundreds of endpoints
 must be catalogued, searched and retrieved in order to perform peer to
-peer interoperability connectivity testing. A searchable configuration
-data source for web services, DICOM and HL7 v2 within the Gazelle Test
-Management system allows test participants to create, update, view and
-.csv export endpoint details.
+peer interoperability connectivity testing. A searchable [configuration
+data source](https://gazelle.ihe.net/content/system-configuration) for
+web services, DICOM and HL7 v2 within the Gazelle Test Management system
+allows test participants to create, update, view and .csv export
+endpoint details.
 
-![](images/media/image2.png)
+![](images/media/image1.png)
 
 Figure 2.2.1.1-1: Sample IHE Connectathon Configurations in Gazelle Test
 Management
@@ -365,13 +378,16 @@ The IHE Patient Care Device (PCD) Domain concentrates on profiles
 pertaining to patient-centric point-of-care medical devices (such as
 vital signs monitors and infusion pumps). IHE PCD has identified use
 cases within the recent Service-oriented Device Point-of-care
-Interoperability (SDPi) White Paper, in which devices exchange software
-and hardware configuration details (*UC.33, UC.194 and UC.199)* to
-facilitate biomedical equipment management.
+[Interoperability (SDPi) White
+Paper](https://www.ihe.net/uploadedFiles/Documents/PCD/IHE_PCD_WP_SDPi_UseCases_Rev1-1_Pub_2019-11-01.pdf),
+in which devices exchange software and hardware configuration details
+(*UC.33, UC.194 and UC.199)* to facilitate biomedical equipment
+management.
 
 #### IHE ITI Configuration Management White Paper
 
-In 2007, IHE ITI began to draft a Configuration Management White Paper
+In 2007, IHE ITI began to draft a [Configuration Management White
+Paper](ftp://ftp.ihe.net/IT_Infrastructure/iheitiyr5-2007-2008/Technical_Cmte/Whitepaper_Work/Configuration/Config-Whitepaper-Outline04.doc)
 that proposed extending the DICOM LDAP model to HL7 v2 and XD\* web
 services. Although this was not published as an IHE White Paper, its
 development fed into other work products, and was considered in the
@@ -387,8 +403,9 @@ Standard.
 
 In 2001, DICOM convened an ad hoc group on configuration management that
 developed use cases and a data model that led to the development of
-Supplement 67, Configuration Management, which was introduced into the
-DICOM standard in 2004.
+Supplement 67, [Configuration
+Management](http://dicom.nema.org/medical/dicom/current/output/html/part15.html#chapter_7),
+which was introduced into the DICOM standard in 2004.
 
 Despite leveraging an existing LDAP infrastructure for campus
 configuration management support, a review of DICOM conformance
@@ -403,48 +420,63 @@ DICOM Configuration Management Profiles in the marketplace.
 
 Other Configuration Management worth noting include:
 
-  - Interface definition language (IDL), such as Web Services
-    Description Language (WSDL) or Object Management group (OMG)
+  - [Interface definition language
+    (IDL)](https://en.wikipedia.org/wiki/Interface_description_language),
+    such as Web Services Description Language (WSDL) or Object
+    Management group (OMG)
 
-  - Universal Description, Discovery and Integration (UDDI) OASIS
+  - Universal Description, [Discovery and Integration (UDDI)
+    OASIS](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=uddi-spec)
     standard that is no longer maintained
 
-  - WoT (Web of Things) Thing Description, a work item from the W3C
-    Working Group, recently open for public comment
+  - [WoT (Web of Things) Thing
+    Description](https://www.w3.org/TR/2020/PR-wot-thing-description-20200130/),
+    a work item from the W3C Working Group, recently open for public
+    comment
 
-  - FHIR CapabilityStatement resource and its expected publication on
-    the metadata endpoint of a server
+  - [FHIR
+    CapabilityStatement](http://hl7.org/fhir/http.html#capabilities)
+    resource and its expected publication on the metadata endpoint of a
+    server
 
-  - FHIR Endpoint resource describes the technical details for how to
-    connect to a FHIR server, and for what purposes
+  - [FHIR Endpoint resource](https://www.hl7.org/fhir/endpoint.html)
+    describes the technical details for how to connect to a FHIR server,
+    and for what purposes
 
-  - mCSD, Mobile Care Services Discovery, provides a provides a RESTful
-    interface to discover Care Services; endpoint services could be
-    managed in a similar manner
+  - [mCSD, Mobile Care Services
+    Discovery](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_mCSD.pdf),
+    provides a provides a RESTful interface to discover Care Services;
+    endpoint services could be managed in a similar manner
 
-  - DICOMweb includes a WADL Retrieve Capabilities Transaction, a
-    machine-readable description of the service(s) implemented by an
+  - DICOMweb includes a [WADL Retrieve Capabilities
+    Transaction](http://dicom.nema.org/medical/dicom/current/output/chtml/part18/sect_8.9.html),
+    a machine-readable description of the service(s) implemented by an
     origin server
 
-  - IEEE 11073 contains configuration specifications for point of care /
-    personal health devices
+  - [IEEE 11073](https://en.wikipedia.org/wiki/ISO/IEEE_11073) contains
+    configuration specifications for point of care / personal health
+    devices
 
-  - Configuration Management with SNMP (Simple Network Management
-    Protocol, snmpconf)
+  - [Configuration Management with
+    SNMP](https://datatracker.ietf.org/wg/snmpconf/about/) (Simple
+    Network Management Protocol, snmpconf)
 
-  - Key Management Interoperability Protocol (KMIP)
+  - [Key Management Interoperability Protocol
+    (KMIP)](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=kmip)
 
-  - Universal Plug and Play (UPnP), a set of networking protocols
-    supporting zero-configuration and automatic discovery in local area
-    networks
+  - [Universal Plug and Play
+    (UPnP)](https://openconnectivity.org/developer/specifications/upnp-resources/upnp/),
+    a set of networking protocols supporting zero-configuration and
+    automatic discovery in local area networks
 
-  - Web Services for Management (WS-Management) Specification, a
-    SOAP-based protocol for the management of servers, devices,
+  - [Web Services for Management (WS-Management)
+    Specification](https://www.dmtf.org/sites/default/files/standards/documents/DSP0226_1.2.0.pdf),
+    a SOAP-based protocol for the management of servers, devices,
     applications and various Web services
 
-  - DNS Service Discovery (DNS-SD) standardizes DNS programming
-    interfaces, servers, and packet formats to browse the network for
-    services
+  - [DNS Service Discovery (DNS-SD)](http://www.dns-sd.org/)
+    standardizes DNS programming interfaces, servers, and packet formats
+    to browse the network for services
 
   - Commercially available or open-source products that provide similar
     services
@@ -591,7 +623,7 @@ institutions would be forced to manage duplicate and conflicting
 information (e.g., two Creators attempt to create or update information
 for the same endpoint entry).
 
-![](images/media/image3.png)
+![](images/media/image2.png)
 
 Figure 4.1-1: Vendor Assisted Model
 
@@ -614,11 +646,11 @@ centralized SNIF repository.
 
 Actors retrieve SNIF connectivity details.
 
-![](images/media/image4.png)
+![](images/media/image3.png)
 
 Figure 4.2-1: SNIF Process Flow, Vendor-Assisted
 
-![SNIF Process Flow, Centralized Repositoy](images/media/image5.png)
+![SNIF Process Flow, Centralized Repositoy](images/media/image4.png)
 
 Figure 4.2-2: SNIF Process Flow, Centralized Repository
 
@@ -694,7 +726,7 @@ In addition to security (see Section 4.3), Digital Signatures provide a
 clear source and timestamp that aids in establishing an authoritative
 SNIF source.
 
-![](images/media/image6.png)
+![](images/media/image5.png)
 
 Figure 4.4.3-1: Application of a Data Management Policy
 
@@ -731,18 +763,18 @@ Table 4.4.5-1: SNIF Required Actor Groupings
 Transactions support the basic population of the creation and management
 of the SNIF.
 
-![](images/media/image7.png)
+![](images/media/image6.png)
 
 Figure 4.5-1: SNIF Transactions for individual Content Creator,
 Repository and Consumer actors
 
 ![SNIF Transactions for Integrated Content Creator/Repository and
-Consumer actors](images/media/image8.png)
+Consumer actors](images/media/image7.png)
 
 Figure 4.5-2: SNIF Transactions for Integrated Content
 Creator/Repository and Consumer actors
 
-![](images/media/image9.png)
+![](images/media/image8.png)
 
 Figure 4.5-3: SNIF Transactions for Integrated Content
 Creator/Repository and Consumer actors with a Central Repository
@@ -790,32 +822,32 @@ represented through encoding for machine readability.
 
 Table 4.6.2-1: SNIF Data Model Elements - categorized
 
-| Element                                    | Description                                                                                                                      | FHIR | HL7 v2 | DICOM | XD\* |
-| ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- | ---- | ------ | ----- | ---- |
-| Administrative                             |                                                                                                                                  |      |        |       |      |
-| Identifier                                 | Unique identifier, used across systems                                                                                           | \*   | \*     | \*    | \*   |
-| Name                                       | Identifiable name of the endpoint                                                                                                | \*   | \*     | \*    | \*   |
-| Managing organization                      | Organization that manages this endpoint                                                                                          | \*   | o      |       | \*   |
-| Contact                                    | Contact (owner) details                                                                                                          | \*   | \*     | \*    | \*   |
-| Operational                                |                                                                                                                                  |      |        |       |      |
-| Period                                     | A time period (defined by a start and end date/time) that the endpoint is expected to be operational                             | o    | o      | o     | o    |
-| Time zone                                  | Time zone of the endpoint                                                                                                        | o    | o      | o     | o    |
-| IHE Profiles & Actors                      | Profile/actor pair(s)                                                                                                            | \*   | \*     | \*    | \*   |
-| IHE Transaction & Roles                    | Supported transactions and roles                                                                                                 | o    | o      | o     | o    |
-| Status                                     | planned, test, production                                                                                                        | o    | o      | o     | o    |
-| Receiving/Sending Facility                 | HL7                                                                                                                              |      | x      |       |      |
-| Receiving/Sending Application              | HL7                                                                                                                              |      | x      |       |      |
-| Integration Guide                          | Site/product specific documentation, such as Implementation Guide, HL7 or DICOM conformance statement, IHE integration statement | o    | o      | o     | o    |
-| Technical                                  |                                                                                                                                  |      |        |       |      |
-| Connection type                            | Endpoint protocol or standard                                                                                                    | \*   | \*     | \*    | \*   |
-| Connection type version                    | Endpoint protocol or standard version                                                                                            | x    | x      |       |      |
-| Transport                                  | TCP/IP, HTTP, MLLP                                                                                                               |      | \*     | \*    |      |
-| Service details                            | DICOM PS3.15 Annex H, DICOMweb Capabilities, FHIR Capability Statement, HL7 messages supported, DIMSE services                   | o    | \*     | \*    | o    |
-| Address                                    | Address for connecting to this endpoint (e.g., URL, IP/hostname, port)                                                           | \*   | \*     | \*    | \*   |
-| Connection type security description       | IHE ATNA Options *(CP-ITI-1151)*                                                                                                 | \*   | \*     | \*    | \*   |
-| Connection security certificate management | Signed Direct Comparison, Certificate Authority                                                                                  | \*   | \*     | \*    | \*   |
-| Transmission                               | Synchronous or asynchronous communication                                                                                        | o    | o      | o     | o    |
-| Application Entity                         | DICOM AE title                                                                                                                   |      |        | \*    |      |
+| Element                                    | Description                                                                                                                                                                                                                                                                                                                         | FHIR | HL7 v2 | DICOM | XD\* |
+| ------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- | ------ | ----- | ---- |
+| Administrative                             |                                                                                                                                                                                                                                                                                                                                     |      |        |       |      |
+| Identifier                                 | Unique identifier, used across systems                                                                                                                                                                                                                                                                                              | \*   | \*     | \*    | \*   |
+| Name                                       | Identifiable name of the endpoint                                                                                                                                                                                                                                                                                                   | \*   | \*     | \*    | \*   |
+| Managing organization                      | Organization that manages this endpoint                                                                                                                                                                                                                                                                                             | \*   | o      |       | \*   |
+| Contact                                    | Contact (owner) details                                                                                                                                                                                                                                                                                                             | \*   | \*     | \*    | \*   |
+| Operational                                |                                                                                                                                                                                                                                                                                                                                     |      |        |       |      |
+| Period                                     | A time period (defined by a start and end date/time) that the endpoint is expected to be operational                                                                                                                                                                                                                                | o    | o      | o     | o    |
+| Time zone                                  | Time zone of the endpoint                                                                                                                                                                                                                                                                                                           | o    | o      | o     | o    |
+| IHE Profiles & Actors                      | Profile/actor pair(s)                                                                                                                                                                                                                                                                                                               | \*   | \*     | \*    | \*   |
+| IHE Transaction & Roles                    | Supported transactions and roles                                                                                                                                                                                                                                                                                                    | o    | o      | o     | o    |
+| Status                                     | planned, test, production                                                                                                                                                                                                                                                                                                           | o    | o      | o     | o    |
+| Receiving/Sending Facility                 | HL7                                                                                                                                                                                                                                                                                                                                 |      | x      |       |      |
+| Receiving/Sending Application              | HL7                                                                                                                                                                                                                                                                                                                                 |      | x      |       |      |
+| Integration Guide                          | Site/product specific documentation, such as Implementation Guide, HL7 or DICOM conformance statement, IHE integration statement                                                                                                                                                                                                    | o    | o      | o     | o    |
+| Technical                                  |                                                                                                                                                                                                                                                                                                                                     |      |        |       |      |
+| Connection type                            | Endpoint protocol or standard                                                                                                                                                                                                                                                                                                       | \*   | \*     | \*    | \*   |
+| Connection type version                    | Endpoint protocol or standard version                                                                                                                                                                                                                                                                                               | x    | x      |       |      |
+| Transport                                  | TCP/IP, HTTP, MLLP                                                                                                                                                                                                                                                                                                                  |      | \*     | \*    |      |
+| Service details                            | [DICOM PS3.15 Annex H](ttp://dicom.nema.org/medical/dicom/current/output/html/part15.html#chapter_H), [DICOMweb Capabilities](http://dicom.nema.org/medical/dicom/current/output/html/part18.html#sect_8.9), [FHIR Capability Statement](https://www.hl7.org/fhir/capabilitystatement.html), HL7 messages supported, DIMSE services | o    | \*     | \*    | o    |
+| Address                                    | Address for connecting to this endpoint (e.g., URL, IP/hostname, port)                                                                                                                                                                                                                                                              | \*   | \*     | \*    | \*   |
+| Connection type security description       | [IHE ATNA Options](https://gazelle.ihe.net/files/CP-ITI-1151-04-ballot54.pdf) *(CP-ITI-1151)*                                                                                                                                                                                                                                       | \*   | \*     | \*    | \*   |
+| Connection security certificate management | Signed Direct Comparison, Certificate Authority                                                                                                                                                                                                                                                                                     | \*   | \*     | \*    | \*   |
+| Transmission                               | Synchronous or asynchronous communication                                                                                                                                                                                                                                                                                           | o    | o      | o     | o    |
+| Application Entity                         | DICOM AE title                                                                                                                                                                                                                                                                                                                      |      |        | \*    |      |
 
 ## Future Profile Extensions
 
