@@ -1,45 +1,16 @@
-**Integrating the Healthcare Enterprise**
-
-**IT Infrastructure (ITI)**
-
-**White Paper**
+**IHE IT Infrastructure** **White Paper**
 
 **Survey of Network Interfaces Form**
 
-**Revision 1.1 – Published**
+**Contents**
 
-Date: May 6, 2020
+1.  [Introduction](#introduction)
 
-Author: IHE ITI Technical Committee
+2.  [Summary](#summary)
 
-Email: iti@ihe.net
+3.  [Use Cases](#use-cases)
 
-**Please verify you have the most recent version of this document.** See
-[here](http://ihe.net/Technical_Frameworks/) for Published Versions and
-[here](http://ihe.net/Public_Comment/) for Public Comment versions.
-
-**Foreword**
-
-This is a white paper of the IHE IT Infrastructure (ITI) domain.
-
-This white paper is published on May 6, 2020 for. Comments are invited
-at any time and can be submitted
-[http://www.ihe.net/ITI\_Public\_Comments](http://www.ihe.net/ITI_Public_Comments/).
-
-General information about IHE can be found at
-[http://ihe.net](http://ihe.net/).
-
-Information about the IHE IT Infrastructure domain can be found at
-[http://ihe.net/IHE\_Domains](http://ihe.net/IHE_Domains/).
-
-Information about the organization of IHE Technical Frameworks and
-Supplements and the process used to create them can be found at
-[http://ihe.net/IHE\_Process](http://ihe.net/IHE_Process/) and
-[http://ihe.net/Profiles](http://ihe.net/Profiles/).
-
-The current version of the IHE IT Infrastructure Technical Framework can
-be found at
-[http://ihe.net/Technical\_Frameworks](http://ihe.net/Technical_Frameworks/).
+4.  [Profile Proposal](#profile-proposal)
 
 # Introduction
 
