@@ -205,7 +205,7 @@ Connectathon setup)?
 Closed Issue 2 response:
 
 An interpretation of automated and self-configuration may be found in
-Section 4.7 below. The initial scope of this profile is to establish
+Future Profile Extensions. The initial scope of this profile is to establish
 common content, and a means to access content pertaining to technical
 configuration details. Future extensions could include discovery and
 automation upon successful adoption of the initial profile.
