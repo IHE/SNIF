@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## Introduction to the Network Interfaces Form White Paper (SNIF)
+Configuration management of peer interfaces enabling IHE profiles is burdensome within HDOs (Healthcare Delivery Organizations). Interfaces are often manually configured, requiring trained integrators to: gather configuration properties, configure and test interoperability. The human element introduces the opportunity for errors, often typographical, that can be difficult to identify and correct. The increasing adoption of secure connectivity protocols complicates connectivity by adding additional properties, such as logging and certificates. 
 
-You can use the [editor on GitHub](https://github.com/IHE/SNIF/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+The Survey of Network Interfaces Form White Paper, ([SNIF](/SNIF-Whitepaper.md)) proposes a content profile that provides a consistent method to catalogue configuration properties for human and machine consumption during installation, upgrade and repair. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This 3 minute [video](https://youtu.be/EbA3tdycTqs) describes SNIF.
 
-### Markdown
+### Intended Audience: 
+* IT departments of healthcare institutions
+* Integrators, consultants and interface analysts
+* Technical staff of vendors participating in the deployment and service of healthcare applications
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### How you can help:
+IHE ITI continues to seek public comment on this white paper and invites you to review the use cases and profile proposal [here](/SNIF-Whitepaper.md).
 
-```markdown
-Syntax highlighted code block
+We would appreciate any comments in [GitHub](https://github.com/IHE/SNIF/issues), and particularly looking for assistance in answering open questions and [issues](/Issues.md). 
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/IHE/SNIF/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Please contact our [contributors](https://github.com/IHE/SNIF/graphs/contributors) with any questions.
