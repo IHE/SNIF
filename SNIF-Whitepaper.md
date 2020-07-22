@@ -19,7 +19,7 @@ services and endpoints.
 
 ## Purpose of the Survey of Network Interfaces Form White Paper
 
-*During system implementation within a healthcare institution,
+During system implementation within a healthcare institution,
 identification of endpoint service connection details requires the
 cooperation of the healthcare institution, integrators and vendors. Once
 a system is deployed into clinical use, these details are often
@@ -27,11 +27,11 @@ difficult to find due to dispersal of the project team, inadequate
 record keeping, and configuration changes. The proposal of this white
 paper is to start with a standardized form.*
 
-*The purpose of this white paper is to present the issues within the
+The purpose of this white paper is to present the issues within the
 healthcare enterprise relating to the cataloguing, search and retrieval
 of endpoint service connection details, describes related use cases and
 proposes a minimally viable IHE profile to address desirable situation
-use cases in Section* *3.2.2 below.*
+use cases [below](#use-cases).
 
 ## Scope
 
@@ -479,7 +479,7 @@ transactions, merge Create/Update transactions with existing SNIF
 entries, present duplicate SNIF entries in query responses, or flag
 conflicts for user resolution.
 
-In addition to security (see Section 4.3), Digital Signatures provide a
+In addition to Security Controls, Digital Signatures provide a
 clear source and timestamp that aids in establishing an authoritative
 SNIF source.
 
@@ -491,7 +491,7 @@ Figure 4.4.3-1: Application of a Data Management Policy
 
 The Consumer is responsible for queries based on connectivity details,
 and retrieval of SNIF meeting query criteria. Queries would be based on
-data elements described in the data model in Section 4.6.2.
+data elements described in the SNIF Contents Data Model.
 
 For example, a Protocol Manager could be grouped with SNIF Content
 Consumer in order to retrieve connectivity details for Modality actors
@@ -499,7 +499,7 @@ supporting DICOM protocol object transfer.
 
 ### Grouping
 
-It is envisioned that Security Controls (Section 4.2) warrants grouping
+It is envisioned that Security Controls warrants grouping
 as below. An actor from this profile (Column 1) shall implement all the
 required transactions and/or content modules in this profile in addition
 to all transactions required for the grouped actor (Column 2).
