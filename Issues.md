@@ -99,7 +99,7 @@ Open Issue 7:
 Regarding a SNIF Profile:
 
   - Is there a preferred technical approach based on existing standards,
-    referenced in Section 2.2 below?
+    referenced in Other Workitems?
 
   - Is there any interest from an organization willing to develop an
     opensource implementation as a project related to the SNIF profiling
@@ -120,12 +120,11 @@ SNIF Repositories:
   - How should multiple SNIF Repositories be managed? Is there a need
     for an authoritative Repository and defined data management
     policies? Do Digital Signatures offer a solution? Should only one
-    SNIF Repository be allowed (as with an XDS Registry)? See Sections
-    4.1and 4.4.3 below.
+    SNIF Repository be allowed (as with an XDS Registry)? See Profile Proposal.
 
   - Should the Repository query Content Creators for updates or does
     this add unnecessary complexity (i.e., should bi-directional
-    transactions be established as discussed in Section 4.4.2 below)?
+    transactions be established as discussed in teh SNIF Content Consumer)?
 
 Open Issue 9:
 
