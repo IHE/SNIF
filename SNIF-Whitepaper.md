@@ -338,7 +338,7 @@ web services, DICOM and HL7 v2 within the Gazelle Test Management system
 allows test participants to create, update, view and .csv export
 endpoint details.
 
-![](images/media/image1.png)
+![](images/media/image2.png)
 
 Figure 2.2.1.1-1: Sample IHE Connectathon Configurations in Gazelle Test
 Management
@@ -594,7 +594,7 @@ institutions would be forced to manage duplicate and conflicting
 information (e.g., two Creators attempt to create or update information
 for the same endpoint entry).
 
-![](images/media/image2.png)
+![](images/media/image3.png)
 
 Figure 4.1-1: Vendor Assisted Model
 
@@ -617,11 +617,11 @@ centralized SNIF repository.
 
 Actors retrieve SNIF connectivity details.
 
-![](images/media/image3.png)
+![](images/media/image4.png)
 
 Figure 4.2-1: SNIF Process Flow, Vendor-Assisted
 
-![SNIF Process Flow, Centralized Repositoy](images/media/image4.png)
+![SNIF Process Flow, Centralized Repositoy](images/media/image5.png)
 
 Figure 4.2-2: SNIF Process Flow, Centralized Repository
 
@@ -697,7 +697,7 @@ In addition to security (see Section 4.3), Digital Signatures provide a
 clear source and timestamp that aids in establishing an authoritative
 SNIF source.
 
-![](images/media/image5.png)
+![](images/media/image6.png)
 
 Figure 4.4.3-1: Application of a Data Management Policy
 
@@ -734,18 +734,18 @@ Table 4.4.5-1: SNIF Required Actor Groupings
 Transactions support the basic population of the creation and management
 of the SNIF.
 
-![](images/media/image6.png)
+![](images/media/image7.png)
 
 Figure 4.5-1: SNIF Transactions for individual Content Creator,
 Repository and Consumer actors
 
 ![SNIF Transactions for Integrated Content Creator/Repository and
-Consumer actors](images/media/image7.png)
+Consumer actors](images/media/image8.png)
 
 Figure 4.5-2: SNIF Transactions for Integrated Content
 Creator/Repository and Consumer actors
 
-![](images/media/image8.png)
+![](images/media/image9.png)
 
 Figure 4.5-3: SNIF Transactions for Integrated Content
 Creator/Repository and Consumer actors with a Central Repository
