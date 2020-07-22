@@ -1,6 +1,6 @@
 ## Open Issues and Questions
 
-Open Issue 1:
+#### Open Issue 1:
 
 What level of portability, availability and openness should be proposed
 to access SNIF (such as discovery of the repository, access to, and
@@ -8,7 +8,7 @@ searching within the repository)? We recognize a trade-off between
 accessibility/convenience and exposure of network connectivity details
 with access to PHI.
 
-Open Issue 1 response:
+#### Open Issue 1 response:
 
 There are two aspects to security:
 
@@ -36,7 +36,7 @@ ISO/IEC 27001/2 and
 [FIPS 140-3](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.140-3.pdf)
 for US Federal Agencies.
 
-Open Issue 2:
+#### Open Issue 2:
 
 What amount of security information should be included within the data
 model without compromising security?
@@ -45,7 +45,7 @@ Consider, although not intended as a security tool, SNIF could aid in
 aid in a project to [map an existing
 network](https://apps.nsa.gov/iaarchive/library/ia-guidance/security-configuration/networks/manageable-network-plan.cfm).
 
-Open Issue 2 response:
+#### Open Issue 2 response:
 
 An initial proposal suggests that ATNA options could be included within
 the data model.
@@ -64,24 +64,24 @@ elements such as:
 Note: these may duplicate information in an existing security management
 database.
 
-Open Issue 3:
+#### Open Issue 3:
 
 How should the data be organized? Should there be 1 form per system or 1
 form per site?
 
-Open Issue 3 response:
+#### Open Issue 3 response:
 
 The form is a virtual form and should allow for one or more; public
 comment is sought on this approach.
 
-Open Issue 4:
+#### Open Issue 4:
 
 Are the assumptions regarding an institution’s role in interface
 management correct? Initial feedback suggests that institutions tend not
 to catalogue endpoints, however there is some interest in having such
 information available, in order to become more self-sufficient.
 
-Open Issue 4 response:
+#### Open Issue 4 response:
 
 Seek public comment on the following:
 
@@ -94,7 +94,7 @@ Seek public comment on the following:
   - Would institutions be willing to transition their current systems to
     one that is standardized?
 
-Open Issue 7:
+#### Open Issue 7:
 
 Regarding a SNIF Profile:
 
@@ -113,7 +113,7 @@ Regarding a SNIF Profile:
     Exchange Provider Directory, what Carequality attributes should be
     included in SNIF (and vice-versa)?
 
-Open Issue 8:
+#### Open Issue 8:
 
 SNIF Repositories:
 
@@ -126,7 +126,7 @@ SNIF Repositories:
     this add unnecessary complexity (i.e., should bi-directional
     transactions be established as discussed in teh SNIF Content Consumer)?
 
-Open Issue 9:
+#### Open Issue 9:
 
 To what extent should connectivity details be incorporated in the data
 model to differentiate an endpoint without being overly exhaustive?
@@ -150,7 +150,7 @@ SNIF can be to maintain. Public comment is sought on:
   - How should the data model handle synchronous vs. asynchronous
     services?
 
-Open Issue 10:
+#### Open Issue 10:
 
 How can this profile avoid interfering with facility network
 inventory/configuration management systems? Some facilities already
@@ -176,7 +176,7 @@ potential points of interference:
 
 ## Closed Issues
 
-Closed Issue 1:
+#### Closed Issue 1:
 
 Is there incentive for the healthcare institution to own and manage
 configuration details? Such details are typically held by vendors and
@@ -187,7 +187,7 @@ upgrades or de-installations; further de-incentivizing institutions to
 maintain this information. What model should be used for data
 collection? Manual entry is not sustainable.
 
-Closed Issue 1 response:
+#### Closed Issue 1 response:
 
 To reduce, and possibly eliminate the need for healthcare institutions
 to create and maintain configuration details, a vendor supported, shared
@@ -196,13 +196,13 @@ connectivity details held within vendor applications are exposed in a
 standardized manner. By reducing the resources required to manually
 maintain SNIF, we are hoping to incentivize adoption.
 
-Closed Issue 2:
+#### Closed Issue 2:
 
 Should the profile include provisions for automated or
 self-configuration (e.g., automated XCA-I config, or fully automated
 Connectathon setup)?
 
-Closed Issue 2 response:
+#### Closed Issue 2 response:
 
 An interpretation of automated and self-configuration may be found in
 Future Profile Extensions. The initial scope of this profile is to establish
